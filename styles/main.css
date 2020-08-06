@@ -1,0 +1,61 @@
+:root {
+	--color-background: #fefefe;
+	--color-primary-lighter1: #c6fffd;
+	--color-primary-lighter: #b8f0ee;
+	--color-primary-light: #5abfad;
+	--color-primary: #5abfad;
+	--color-primary-dark: #388a96;
+	--color-primary-darker: #02587c;
+	--color-secondary: #6d1fb6;
+	--color-secondary-dark: #6203bb;
+	--color-title-in-primary: #ffffff;
+	--color-text-in-primary: #b6ebdd;
+	--color-text-title: #32264d;
+	--color-text-complement: #233f33;
+	--color-text-base: #61807e;
+	--color-line-in-white: #e6eef0;
+	--color-input-background: #f8f8fc;
+	--color-button-text: #ffffff;
+	--color-box-base: #ffffff;
+	--color-box-footer: #fafafc;
+	--color-small-info: #bcccc5;
+	font-size: 60%;
+	/* controle das medidas rem */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100vh;
+}
+
+body {
+	background-color: var(--color-primary-lighter);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+body,
+button,
+textarea,
+input {
+	font: 500 1.6rem "Poppins";
+	color: var(--color-primary-darker);
+}
+
+.container {
+	width: 70vw;
+	max-width: 700px;
+}
+
+@media (min-width:700px) {
+	:root {
+		font-size: 62.5%;
+	}
+}

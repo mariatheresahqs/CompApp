@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/partials/header.css">
+    <link rel="stylesheet" href="/styles/partials/page-monitoria.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap"
+        rel="stylesheet">
+    <title>Comp App</title>
+</head>
+
+<body id="page-monitoria">
+    <div class="container">
+        <header class="page-header">
+            <div class="top-bar-container">
+                <a href="/">
+                    <img src="/images/icons/back.svg" alt="Voltar">
+                </a>
+                <img src="/images/logoComp4.svg" alt="CompApp">
+            </div>
+            <div class="header-content">
+                <strong>Alunos e alunas dispostos a compartilhar conhecimento:</strong>
+                <form action="" class="search-volunteers">
+                    <div class="select-block">
+                        <label for="subject">Disciplina:</label>
+                        <select name="subject" id="subject">
+                            <option value="" disable="" hidden="">Selecione</option>
+                            <option value="1">Algoritmos e Estrutura de Dados I</option>
+                            <option value="2">Algoritmos e Estrutura de Dados II</option>
+                            <option value="3">Banco de Dados</option>
+                            <option value="4">Cálculo Diferencial e Integral I</option>
+                            <option value="5">Cálculo Diferencial e Integral II</option>
+                            <option value="6">Cálculo Diferencial e Integral III</option>
+                            <option value="7">Cálculo Numérico</option>
+                            <option value="8">Compiladores</option>
+                            <option value="9">Computadores e Sociedade</option>
+                            <option value="10">Economia I</option>
+                            <option value="11">Empreendedorismo e Inovação I</option>
+                            <option value="12">Engenharia de Software I</option>
+                            <option value="13">Engenharia de Software II</option>
+                            <option value="14">Física I</option>
+                            <option value="15">Física III</option>
+                            <option value="16">Fundamentos da Teoria da Computação</option>
+                            <option value="17">Geometria Analítica e Álgebra Linear</option>
+                            <option value="18">Inglês I</option>
+                            <option value="19">Iniciação à Estatística</option>
+                            <option value="20">Introdução à Ciência da Computação</option>
+                            <option value="21">Introdução aos Sistemas Lógicos Digitais</option>
+                            <option value="22">Laboratório de Física Elétrica</option>
+                            <option value="23">Linguagens de Programação</option>
+                            <option value="24">Matemática Discreta</option>
+                            <option value="25">Matemática Financeira</option>
+                            <option value="26">Organização de Computadores I</option>
+                            <option value="27">Organização de Computadores II</option>
+                            <option value="28">Pesquisa Operacional I</option>
+                            <option value="29">Português Instrumental I</option>
+                            <option value="30">Programação</option>
+                            <option value="31">Programação Orientada a Objetos</option>
+                            <option value="32">Projeto de Sistemas para Web</option>
+                            <option value="33">Projeto e Análise de Algoritmos</option>
+                            <option value="34">Redes de Computadores</option>
+                            <option value="35">Sistemas Distribuídos e Paralelos</option>
+                            <option value="36">Sistemas Embarcados</option>
+                            <option value="37">Sistemas Operacionais</option>
+                            <option value="38">Teoria e Modelo de Grafos</option>
+                            <option value="39">Teoria Geral da Administração</option>
+                        </select>
+                    </div>
+                    <div class="select-block">
+                        <label for="weekday">Dia da semana:</label>
+                        <select name="weekday" id="weekday">
+                            <option value="" disable="" hidden="">Selecione</option>
+                            <option value="0">Domingo</option>
+                            <option value="1">Segunda-feira</option>
+                            <option value="2">Terça-feira</option>
+                            <option value="3">Quarta-feira</option>
+                            <option value="4">Quinta-feira</option>
+                            <option value="5">Sexta-feira</option>
+                            <option value="6">Sábado</option>
+                        </select>
+                    </div>
+                    <div class="input-block">
+                        <label for="weekday">Hora</label>
+                        <input name="time" id="time" type="time">
+                    </div>
+                    <button type="submit">Filtrar</button>
+                </form>
+            </div>
+        </header>
+        <main>
+            <article class="article-volunteer">
+                <header>
+                    <img src="https://avatars3.githubusercontent.com/u/44317250?s=460&u=7110126c61e601f91af0caa9647eee45cc2952a0&v=4"
+                        alt="Maria Theresa">
+                    <div>
+                        <strong>Maria Theresa</strong>
+                        <span>Programação, AEDS I, ISL</span>
+                    </div>
+                </header>
+
+                <p>Apaixonada por lógica de programação e softwares de impacto social. Acredito que o uso de tecnologias
+                    pode facilitar e até mesmo resolver problemas sociais simples capazes de gerar benefícios de curto e
+                    longo prazo.</p>
+
+                <footer>
+                    <div>
+                        <p>Disponibilidade:<strong> Online e Presencial</strong>
+                            <p>Tempo semanal disponível:<strong> 90min</strong>
+                            </p>
+                    </div>
+                    <button type="button">
+                        <img src="/images/icons/whatsapp.svg" alt="Whatsapp">Entrar em contato
+                    </button>
+                </footer>
+            </article>
+            <article class="article-volunteer">
+                <header>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRustT0n1mIqVYG1JHgB0HfKmJ2m1QooBGLnw&usqp=CAU"
+                        alt="Einstein">
+                    <div>
+                        <strong>Einstein</strong>
+                        <span>Física</span>
+                    </div>
+                </header>
+
+                <p>Apaixonado por massa, energia e tempo. No momento estudando se estou em um universo paralelo ou em um
+                    buraco negro. </p>
+
+                <footer>
+                    <div>
+                        <p>Disponibilidade:<strong> Presencial e Espiritual</strong>
+                            <p>Tempo semanal disponível:<strong> Relativo</strong>
+                            </p>
+                    </div>
+                    <button type="button">
+                        <img src="/images/icons/whatsapp.svg" alt="Whatsapp">Entrar em contato
+                    </button>
+                </footer>
+            </article>
+        </main>
+    </div>
+</body>
+
+</html>
