@@ -99,9 +99,6 @@
     background-color: var(--color-box-footer);
     border-top: 1px solid var(--color-line-in-white);
     margin-top: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .article-volunteer footer p {
@@ -118,15 +115,17 @@
 }
 
 .article-volunteer footer button {
-    width: 20rem;
-    height: 5.5rem;
+    width: 100%;
+    height: 3.5rem;
     background: var(--color-secondary-dark);
     border: 0;
     border-radius: 1rem;
     cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+
+    margin-top: 1rem;
 
     transition: all .2s;
 }
@@ -150,7 +149,7 @@
     color: var(--color-button-text);
     font: 400 1.2rem Archivo;
     text-decoration: none;
-    margin-left: .5rem;
+    margin-left: 1.5rem;
 }
 
 
@@ -189,6 +188,23 @@
 
     .article-volunteer>p {
         padding: 0 32px;
+    }
+
+    .article-volunteer footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .article-volunteer footer button {
+        width: 20rem;
+        height: 5.5rem;
+        justify-content: space-evenly;
+
+    }
+
+    .article-volunteer footer button p {
+        margin-left: .5rem;
     }
 
     .article-volunteer footer p strong {
