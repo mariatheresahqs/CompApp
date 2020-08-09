@@ -7,6 +7,7 @@
     color: var(--color-primary-lighter1);
 }
 
+
 .logo-container {
     text-align: center;
     margin-bottom: 3.1rem;
@@ -27,6 +28,27 @@
     width: 100%;
 }
 
+.cadastro {
+    text-decoration: none;
+    font: 500 1.4rem Archivo;
+    letter-spacing: .2rem;
+    color: var(--color-secondary-dark);
+    transition: color .2s;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    margin-top: 15rem;
+}
+
+.cadastro:hover {
+    color: var(--color-button-text);
+}
+
+.page-landing-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* ---------------------- BUTTONS ------------------------------ */
 
@@ -85,21 +107,23 @@
     }
 }
 
+
+/* ---------------------- MEDIA ------------------------------ */
 @media (min-width:1100px) {
     #page-landing .container {
         max-width: 1100px;
         display: grid;
         grid-template-columns: 2fr 3fr;
-        grid-template-rows: 350px 1fr;
+        grid-template-rows: 350px 1fr 5px;
         grid-template-areas:
             "logoName image"
-            "button image";
+            "button image"
+            "cadastro cadastro";
         gap: 80px;
     }
 
     .logo-container {
         grid-area: logoName;
-        /* text-align: initial; */
         align-self: center;
     }
 
@@ -121,5 +145,10 @@
         grid-area: button;
         justify-content: flex-start;
         margin-top: -80px;
+    }
+
+    .cadastro {
+        grid-area: cadastro;
+        margin-top: 2rem;
     }
 }

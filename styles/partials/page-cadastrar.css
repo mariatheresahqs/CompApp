@@ -1,0 +1,126 @@
+#page-cadastrar .container {
+    width: 100vw;
+    height: 100vh;
+}
+
+#page-cadastrar .page-header .header-content {
+    margin-bottom: 1rem;
+}
+
+#page-cadastrar main {
+    background: var(--color-box-base);
+    width: 100%;
+    max-width: 74rem;
+    border-radius: 1rem;
+    margin: -4rem auto 3rem;
+    padding-top: 2rem;
+}
+
+#page-cadastrar main footer {
+    padding: 4rem 2rem;
+    background: var(--color-box-footer);
+    border-top: 1px solid var(--color-line-in-white);
+    margin-top: 6rem;
+}
+
+#page-cadastrar main footer button {
+    width: 100%;
+    height: 5rem;
+    background: var(--color-secondary-dark);
+    color: var(--color-button-text);
+    border: 0;
+    border-radius: 1rem;
+    cursor: pointer;
+    font: 700 1.5rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: .2s;
+    margin-top: 3rem;
+}
+
+#page-cadastrar main footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: var(--color-text-complement);
+}
+
+#page-cadastrar main footer p img {
+    margin-right: 1rem;
+}
+
+
+#page-cadastrar fieldset {
+    border: none;
+    padding: 0 2rem;
+}
+
+#page-cadastrar fieldset legend {
+    font: 700 2rem Archivo;
+    color: var(--color-text-title);
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--color-line-in-white);
+}
+
+#page-cadastrar fieldset legend button {
+    background: none;
+    border: 0;
+    color: var(--color-secondary);
+    font: 700 1.5rem Archivo;
+    cursor: pointer;
+    transition: .2s;
+}
+
+#page-cadastrar fieldset legend button:hover {
+    color: var(--color-primary-dark);
+}
+
+#page-cadastrar fieldset+fieldset {
+    margin-top: 3rem;
+}
+
+#page-cadastrar fieldset .input-block:not(:first-child) {
+    margin-top: 1rem;
+}
+
+#page-cadastrar fieldset .textarea-block {
+    margin-top: 1rem;
+}
+
+.checkbox-box {
+    border: 1px solid var(--color-line-in-white);
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.checkbox-box label {
+    margin-left: .5rem;
+}
+
+
+.schedule-item+.schedule-item {
+    margin-top: 3rem;
+    padding-top: 3rem;
+    border-top: 1px solid var(--color-line-in-white);
+}
+
+/* ------------- RESPONSIVIDADE ----------- */
+
+@media(min-width: 700px) {
+    #page-cadastrar .container {
+        max-width: 100vw;
+    }
+
+    #page-cadastrar .page-header .header-content
+}

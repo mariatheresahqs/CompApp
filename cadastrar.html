@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name=="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="/styles/main.css">
+        <link rel="stylesheet" href="/styles/partials/header.css">
+        <link rel="stylesheet" href="/styles/partials/forms.css">
+        <link rel="stylesheet" href="/styles/partials/page-cadastrar.css">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap"
+                rel="stylesheet">
+        <title>Comp App</title>
+</head>
+
+<body id="page-cadastrar">
+        <div class="container">
+                <header class="page-header">
+                        <div class="top-bar-container">
+                                <a href="/">
+                                        <img class="icon-voltar" src="/images/icons/back.svg" alt="Voltar">
+                                </a>
+                                <img src="/images/logoComp4.svg" alt="CompApp">
+                        </div>
+                        <div class="header-content">
+                                <strong>Cadastre-se e ajude um estudante: </strong>
+                                <p>CompApp é uma rede de suporte educacional construída por estudantes para estudantes.
+                                        Você pode
+                                        contribuir com dicas, monitorias e materiais que lhe foram utéis em qualquer
+                                        disciplina.</p>
+                        </div>
+                </header>
+                <main>
+                        <form action="" id="cadastrar-user">
+                                <fieldset>
+                                        <legend>Seus dados</legend>
+                                        <div class="input-block">
+                                                <label for="name=">Nome completo</label>
+                                                <input type="text" name=="name=" id="name=" required>
+                                        </div>
+                                        <div class="input-block">
+                                                <label for="avatar">Link da sua foto <small>(comece com
+                                                                https//)</small></label>
+                                                <input type="url" name=="avatar" id="avatar">
+                                        </div>
+                                        <div class="input-block">
+                                                <label for="email">E-mail</label>
+                                                <input type="email" name="email" id="email" required>
+                                        </div>
+                                        <div class="textarea-block">
+                                                <label for="bio">Biografia</label>
+                                                <textarea name="bio" id="bio" required></textarea>
+                                        </div>
+                                </fieldset>
+                                <fieldset>
+                                        <legend>Sobre a monitoria</legend>
+                                        <div class="select-block">
+                                                <label for="subject">Matéria</label>
+                                                <div class="checkbox-box">
+                                                        <div class="checkbox">
+                                                                <!-- <select name="subject" id="subject"> -->
+                                                                <!-- <label value="" disable="" hidden="">Selecione</label> -->
+                                                                <div><input type="checkbox" id="1" name="1"><label
+                                                                                for="1">Algoritmos e Estrutura de
+                                                                                Dados
+                                                                                I</label></div>
+                                                                <div><input type="checkbox" id="2" name="2"><label
+                                                                                for="2">Algoritmos e Estrutura de
+                                                                                Dados
+                                                                                II</label></div>
+                                                                <div><input type="checkbox" id="3" name="3"><label
+                                                                                for="3">Banco de Dados</label></div>
+                                                                <div><input type="checkbox" id="4" name="4"><label
+                                                                                for="4">Cálculo Diferencial e
+                                                                                Integral
+                                                                                I</label></div>
+                                                                <div><input type="checkbox" id="5" name="5"><label
+                                                                                for="5">Cálculo Diferencial e
+                                                                                Integral
+                                                                                II</label></div>
+                                                                <div><input type="checkbox" id="6" name="6"><label
+                                                                                for="6">Cálculo Diferencial e
+                                                                                Integral
+                                                                                III</label></div>
+                                                                <div><input type="checkbox" id="7" name="7"><label
+                                                                                for="7">Cálculo Numérico</label>
+                                                                </div>
+                                                                <div><input type="checkbox" id="8" name="8"><label
+                                                                                for="8">Compiladores</label></div>
+                                                                <div><input type="checkbox" id="" name=""><label
+                                                                                for="9">Computadores e
+                                                                                Sociedade</label>
+                                                                </div>
+                                                                <div><input type="checkbox" id="9" name="9"><label
+                                                                                for="10">Economia I</label></div>
+                                                                <div><input type="checkbox" id="10" name="10"><label
+                                                                                for="11">Empreendedorismo e
+                                                                                Inovação
+                                                                                I</label></div>
+                                                                <div><input type="checkbox" id="12" name="12"><label
+                                                                                for="12">Engenharia de Software
+                                                                                I</label>
+                                                                </div>
+                                                                <div><input type="checkbox" id="13" name="13"><label
+                                                                                for="13">Engenharia de Software
+                                                                                II</label>
+                                                                </div>
+                                                                <div><input type="checkbox" id="14" name="14"><label
+                                                                                for="14">Física I</label></div>
+                                                                <div><input type="checkbox" id="15" name="15"><label
+                                                                                for="15">Física III</label></div>
+                                                                <div><input type="checkbox" id="16" name="16"><label
+                                                                                for="16">Fundamentos da Teoria da
+                                                                                Computação</label></div>
+                                                                <div><input type="checkbox" id="17" name="17"><label
+                                                                                for="17">Geometria Analítica e
+                                                                                Álgebra
+                                                                                Linear</label></div>
+                                                                <div><input type="checkbox" id="18" name="18"><label
+                                                                                for="18">Inglês I</label></div>
+                                                                <div><input type="checkbox" id="19" name="19"><label
+                                                                                for="19">Iniciação à
+                                                                                Estatística</label>
+                                                                </div>
+                                                                <div><input type="checkbox" id="20" name="20"><label
+                                                                                for="20">Introdução à Ciência
+                                                                                da
+                                                                                Computação</label></div>
+                                                                <div><input type="checkbox" id="21" name="21"><label
+                                                                                for="21">Introdução aos Sistemas
+                                                                                Lógicos
+                                                                                Digitais</label></div>
+                                                                <div><input type="checkbox" id="22" name="22"><label
+                                                                                for="22">Laboratório de Física
+                                                                                Elétrica</label></div>
+                                                                <div><input type="checkbox" id="23" name="23"><label
+                                                                                for="23">Linguagens de
+                                                                                Programação</label>
+                                                                </div>
+                                                                <div><input type="checkbox" id="24" name="24"><label
+                                                                                for="24">Matemática
+                                                                                Discreta</label>
+                                                                </div>
+                                                                <div><input type="checkbox" id="25" name="25"><label
+                                                                                for="25">Matemática
+                                                                                Financeira</label>
+                                                                </div>
+                                                                <div><input type="checkbox" id="26" name="26"><label
+                                                                                for="26">Organização de
+                                                                                Computadores
+                                                                                I</label></div>
+                                                                <div><input type="checkbox" id="27" name="27"><label
+                                                                                for="27">Organização de
+                                                                                Computadores
+                                                                                II</label></div>
+                                                                <div><input type="checkbox" id="28" name="28"><label
+                                                                                for="28">Pesquisa Operacional
+                                                                                I</label>
+                                                                </div>
+                                                                <div><input type="checkbox" id="29" name="29"><label
+                                                                                for="29">Português Instrumental
+                                                                                I</label>
+                                                                </div>
+                                                                <div><input type="checkbox" id="30" name="30"><label
+                                                                                for="30">Programação</label>
+                                                                </div>
+                                                                <div><input type="checkbox" id="31" name="31"><label
+                                                                                for="31">Programação Orientada a
+                                                                                Objetos</label></div>
+                                                                <div><input type="checkbox" id="32" name="32"><label
+                                                                                for="32">Projeto de Sistemas para
+                                                                                Web</label></div>
+                                                                <div><input type="checkbox" id="33" name="33"><label
+                                                                                for="33">Projeto e Análise de
+                                                                                Algoritmos</label></div>
+                                                                <div><input type="checkbox" id="34" name="34"><label
+                                                                                for="34">Redes de
+                                                                                Computadores</label>
+                                                                </div>
+                                                                <div><input type="checkbox" id="35" name="35"><label
+                                                                                for="35">Sistemas Distribuídos e
+                                                                                Paralelos</label></div>
+                                                                <div><input type="checkbox" id="36" name="36"><label
+                                                                                for="36">Sistemas
+                                                                                Embarcados</label>
+                                                                </div>
+                                                                <div><input type="checkbox" id="37" name="37"><label
+                                                                                for="37">Sistemas
+                                                                                Operacionais</label>
+                                                                </div>
+                                                                <div><input type="checkbox" id="38" name="38"><label
+                                                                                for="38">Teoria e Modelo de
+                                                                                Grafos</label>
+                                                                </div>
+                                                                <div><input type="checkbox" id="39" name="39"><label
+                                                                                for="39">Teoria Geral da
+                                                                                Administração</label></div>
+                                                                <!-- </select> -->
+                                                        </div>
+                                                </div>
+                                        </div>
+
+                                        <div class="input-block">
+                                                <label for="disponibilidade-tipo">Tipo de disponibilidade:
+                                                        <small>(Presencial/online)</small></label>
+                                                <input type="text" id="disponibilidade-tipo" required>
+                                        </div>
+
+                                        <div class="input-block">
+                                                <label for="disponibilidade-tempo">Tempo disponível:
+                                                        <small>(em minutos)</small></label>
+                                                <input type="number" id="disponibilidade-tempo" required>
+                                        </div>
+                                </fieldset>
+                                <fieldset>
+                                        <legend>Horários disponíveis
+                                                <button id="add-time">+ Novo Horário</button>
+                                        </legend>
+                                        <div class="schedule-item">
+                                                <div class="select-block">
+                                                        <label for="weekday">Dia da semana</label>
+                                                        <select name="weekday[]" required>
+                                                                <option value="">Selecione</option>
+                                                                <option value="0">Domingo</option>
+                                                                <option value="1">Segunda-feira</option>
+                                                                <option value="2">Terça-feira</option>
+                                                                <option value="3">Quarta-feira</option>
+                                                                <option value="4">Quinta-feira</option>
+                                                                <option value="5">Sexta-feira</option>
+                                                                <option value="6">Sábado</option>
+                                                        </select>
+                                                </div>
+                                                <div class="input-block">
+                                                        <label for="time_from">Das</label>
+                                                        <input type="time" name="time_from[]" required>
+                                                </div>
+                                                <div class="input-block">
+                                                        <label for="time_to">até</label>
+                                                        <input type="time" name="time_to[]" required>
+                                                </div>
+                                        </div>
+                                </fieldset>
+                        </form>
+
+                        <footer>
+                                <p>
+                                        <img src="/images/icons/warning.svg" alt="Aviso importante">
+                                        Importante! <br>
+                                        Preencha todos os dados.
+                                </p>
+                                <button type="submit" form="cadastrar-user">Salvar cadastro</button>
+                        </footer>
+                </main>
+        </div>
+</body>
+
+</html>
