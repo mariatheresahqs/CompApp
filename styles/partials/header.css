@@ -35,7 +35,7 @@
 
 .page-header .header-content p {
     font: 500 1.4rem Archivo;
-    /* max-width: 35rem; */
+    max-width: 50rem;
     line-height: 1.7rem;
     hyphens: auto;
     margin: 1.5rem 0;
